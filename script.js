@@ -18,9 +18,8 @@ function CheckExpression() {
             console.log("nothing selected");
     }
     result = re.test(string);
-    console.log("Result: ", result);
-    if(result){
-        // person = prompt("Please enter ", "Harry Potter");
+    
+    if (result) {
         window.alert("Valid Expression!")
     }
     else
