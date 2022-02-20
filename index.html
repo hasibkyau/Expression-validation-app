@@ -22,14 +22,14 @@
         </div>
 <hr/>
         <div class="row my-2">
-            <select class="form-select">
+            <select id="select" class="form-select">
                 <option selected>Select Expression type</option>
-                <option value="1">Email</option>
-                <option value="2">Phone </option>
-                <option value="3">Number</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone Number </option>
+                <option value="post_code">Post Code</option>
             </select>
             <input class="my-2" type="text" placeholder="Type your expression">
-            <button class="btn btn-primary">Submit</button>
+            <button onclick= CheckExpression() class="btn btn-primary" type="submit">Submit</button>
         </div>
         <script src="./script.js"></script>
     </div>
